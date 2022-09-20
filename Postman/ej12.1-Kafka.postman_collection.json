@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "b717ffa0-7c9f-49ea-8293-fc405a048a89",
+		"name": "ej12.1-Kafka",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22794309"
+	},
+	"item": [
+		{
+			"name": "add/topicName1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"mensaje\":\"mensaje de prueba\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/add/topicName1",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"add",
+						"topicName1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
