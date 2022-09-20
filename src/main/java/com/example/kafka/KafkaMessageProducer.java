@@ -13,7 +13,7 @@ public class KafkaMessageProducer {
 	@Autowired
 	private KafkaTemplate<String, String> kafkaTemplate;
 
-	@Value("${message.topic.name:profesorp}")
+	@Value("${message.topic.name:groupId}")
 	private String topicName;	
 	
 	public void sendMessage(String topic,String key,String message) {
